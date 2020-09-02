@@ -4,4 +4,4 @@
 
 In order to find the top 10 blocks, unzip the file and type:
 
-`cat sizes.dat | ./plusgros.rb`
+`cat sizes* | zcat | ./plusgros.rb`
